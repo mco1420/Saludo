@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anumka</title>
+</head>
+<body>
+    <h1>ANUMKA </h1>
+    <img src="Solo Logo.jpg"     width="200" heigth="400"> 
+        <h2>Fitocosmética Milenaria</h2>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lxuIoQkDoiM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h2>¿Quieres recibir ofertas?</h2>
+    <form action="ejemplo.php" method="get">
+        <p>Nombre: <input type="text" name="nombre" size="40"></p>
+        <p>Correo: <input type="text" name="correo" size="40"></p>
+        <p>Año nacimiento: <input type="number" name="nacido" min="1900"></p>
+        </p>
+        <p>
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Borrar">
+        </p>
+      </form>
+</body>
+</html>
